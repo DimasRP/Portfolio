@@ -1,0 +1,100 @@
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    position: relative;
+}
+.banner-profile{
+    width: 50%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background: rgba(15, 14, 14, 0.5);
+    padding: 1rem;
+    border-radius: 0 50px 0 50px;
+}
+.profile {
+    width: 50%;
+    text-align: -webkit-center;
+}
+.profile img{
+    width: 20rem;
+    height: 26rem;
+    border-radius: 10rem;
+    overflow: hidden;
+}
+.banner-cta{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.banner-cta a{
+    /* position: relative; */
+    width: 50%;
+    display: inline-block;
+    padding: 12px ;
+    text-align: center;
+    margin: 10px 0;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+}
+
+.banner-cta a:nth-child(2){
+    background: linear-gradient(90deg, #755bea, #ff72c0);
+}
+.banner-cta a:hover{
+    letter-spacing: 0.25rem;
+    background: linear-gradient(90deg, #755bea, #c92525);
+}
+.banner-cta a:nth-child(2):hover{
+    background: linear-gradient(90deg, #755bea, #c92525);
+}
+.banner-socials{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.banner-socials a{
+    color: white;
+    font-size: xx-large;
+}
+
+.banner-socials a:hover{
+    font-size: 40px;
+    
+}
+
+
+/*Media tablets*/
+@media screen and (max-width: 600px){
+    .banner-container{
+        flex-direction: column
+    }
+    .banner-profile{
+        padding-top: 5rem;
+        width: 100%;
+        text-align: center;
+    }
+    .profile{
+        width: 100%;
+    }
+}
+
+
+/*Media phone*/
+@media screen and (max-width: 400px){
+    .banner{
+        height: 140vh;
+    }
+    .banner-socials{
+        justify-content: center;
+    }
+}

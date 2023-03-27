@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+:root{
+  
+}
+html{
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+}
+
+body{
+  font-family: 'Rajdhani', sans-serif;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  font-weight: 500;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Container*/
+.container {
+  width: var(--container-width-lg);
+  margin-inline: auto;
+  max-width: 1920px;
+}
+
+section{
+  height: 100vh;
+  padding: 10rem;
+  /* scroll-behavior: smooth;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none; */
+  color: white;
+  /* background: url('./assets/bg.jpeg'); */
+  background: rgb(16,7,64);
+  background: radial-gradient(circle, rgba(16,7,64,1) 0%, rgba(40,30,70,1) 52%, rgba(42,21,91,1) 100%);
+}
+.invisible-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/*Image*/
+img{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+h1, h2, h3, h4, h5, h5{
+  line-height: 1.1;
+  color: var(--color-black);
+}
+
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 2rem;
+}
+h3{
+  font-size: 1.6rem;
+}
+h4{
+  font-size: 1.1rem;
+}
+h5{
+  font-size: 0.95rem;
+}
+h6{
+  font-size: 0.8rem;
+}
+/*Media tablets*/
+@media screen and (max-width: 600px){
+  section{
+    padding: 0.5rem;
+    height: 110vh;
+  }
+}

@@ -1,0 +1,72 @@
+.container-myproject{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.container-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.cards{
+    width: 40%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+    text-align: center;
+    background: rgba(15, 14, 14, 0.5);
+    border-radius: 2rem;
+}
+
+.cards img{
+    border-radius: 2rem 2rem 0 0;
+}
+
+.cards a{
+    padding: 8px;
+    color: white;
+    height: 2.5rem;
+    width: 8rem ;
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+}
+
+.cards a:hover{
+    letter-spacing: 0.25rem;
+    background: linear-gradient(90deg, #755bea, #c92525);
+}
+@media screen and (max-width: 600px){
+    .container-myproject{
+        height: auto;
+    }
+    .container-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards{
+        width: 100%;
+    }    
+
+
+}
+/*Media phone*/
+@media screen and (max-width: 500px){
+    .container-myproject{
+        height: 150vh;
+    }
+    .container-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+}
