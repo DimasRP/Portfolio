@@ -63,7 +63,7 @@
 /*Media phone*/
 @media screen and (max-width: 500px){
     .container-myproject{
-        height: 150vh;
+        height: 125vh;
     }
     .container-cards{
         flex-direction: column;
