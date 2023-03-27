@@ -52,7 +52,7 @@ const Banner = () => {
                 <h3>{text}</h3>
                 <h4>Person who tired start carier in Front Development world with Multimedia background</h4>
                 <div className='banner-cta'>
-                    <a href='#services' className='btn primary'>Let's Talk</a>
+                    <a href='#services' className='btn primary'>My Project</a>
                     <a href={CV} download  className='btn primary' >
                         Download CV <HiDownload/>
                     </a>
