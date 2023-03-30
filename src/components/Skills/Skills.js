@@ -1,4 +1,4 @@
-import './Services.css'
+import './Skills.css'
 import Carousel from "react-multi-carousel"
 import "react-multi-carousel/lib/styles.css"
 import { ImHtmlFive } from "react-icons/im";
@@ -6,7 +6,7 @@ import { SiJavascript, SiMysql, SiReact, SiTailwindcss } from "react-icons/si";
 import { BsGithub, BsBootstrapFill } from "react-icons/bs";
 import { FaNodeJs } from "react-icons/fa";
 
-const Services = () => {
+const Skills = () => {
     const responsive = {
         superLargeDesktop: {
           breakpoint: { max: 4000, min: 3000 },
@@ -72,4 +72,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Skills
