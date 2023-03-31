@@ -5,7 +5,6 @@ import Banner from "./components/Banner/Banner";
 import Footer from "./components/Footer/Footer";
 import MyProject from "./components/MyProject/MyProject";
 import Navbar from "./components/Navbar/Navbar";
-import Services from "./components/Services/Services";
 import Skills from "./components/Skills/Skills";
 
 function App() {
@@ -13,7 +12,6 @@ function App() {
     <div className="App">
       <Navbar/>
       <Banner/>
-      <Services/>
       <Skills/>
       <MyProject/>
       <Footer/>
